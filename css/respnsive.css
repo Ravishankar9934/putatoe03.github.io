@@ -1,0 +1,98 @@
+nav .close-open {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+
+        flex-direction: column;
+    }
+
+    header {
+        height: 30vh;
+    }
+
+    .logo {
+        justify-content: center;
+        /* margin: 12px 0; */
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .search {
+        justify-content: center;
+        /* margin: 12px 0; */
+    }
+
+    .search input {
+        font-size: 8px;
+    }
+
+    .add-links {
+        justify-content: center;
+    }
+
+    .buttons {
+        justify-content: center;
+        width: 100%;
+        /* margin: 12px 0; */
+    }
+
+    .my-5 {
+        margin: 0;
+    }
+
+    .card-item img {
+        margin: 0 65px;
+    }
+
+    hr {
+        width: 35vw;
+        font-weight: 900;
+    }
+
+    nav .close-open {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: var(--main-bg-color);
+        position: fixed;
+        top: -307px;
+        right: -160px;
+        width: 160px;
+        height: 100vh;
+        padding-top: 50px;
+        flex-direction: column;
+        /* z-index: 2; */
+        /* display: none; */
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0px;
+    }
+
+    nav ul .close-open {
+        position: absolute;
+        left: 10px;
+        top: 334px;
+        cursor: pointer;
+        /* position: fixed;
+        left: 180px;
+        left: 180px;
+        top: 27px; */
+    }
+
+    .open {
+
+        display: flex;
+        justify-content: flex-end;
+        /* justify-content: flex-end; */
+        margin: 13px 26px;
+        /* align-items: center; */
+    }
+}
